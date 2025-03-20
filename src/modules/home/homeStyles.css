@@ -1,0 +1,13 @@
+nav {
+  background-color: blue;
+  color: yellow;
+  padding: 3px;
+}
+
+nav > a {
+  color: green;
+}
+
+h2 {
+  background-color: red;
+}

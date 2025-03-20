@@ -3,7 +3,7 @@ import { addDisc, getDiscs } from './discController.js';
 const loadStyles = () => {
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.ref = './modules/books/discStyles.css';
+  link.href = './src/modules/discs/discStyles.css';
   document.head.appendChild(link);
 }
 
