@@ -3,7 +3,7 @@ import { addBook, getBooks } from './bookController.js';
 const loadStyles = () => {
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.ref = './modules/books/bookStyles.css';
+  link.href = './src/modules/books/bookStyles.css';
   document.head.appendChild(link);
 }
 
